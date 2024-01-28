@@ -51,37 +51,36 @@ header {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-header .logo {
+header .site-logo  {
     font-size: 3rem;
-    color: #333;
+    color: red;
     font-weight: bolder;
 }
 
-header .navbar a {
+header .navigation-menu a {
     font-size: 2rem;
     padding: 0 2rem;
     margin-right: 20px;
-    color: #666;
+    color: yellowgreen;
 }
 
-header .navbar a:hover {
+header .navigation-menu a:hover {
     color: rgb(16, 184, 49);
 }
 
-header .icons a {
+header .shopping-cart-icon a {
     font-size: 2.5rem;
     color: #333;
     margin-left: 1.5rem;
 }
 
-header .icons a:hover {
+header .shopping-cart-icon a:hover {
     color: rgb(76, 218, 10);
 }
 
 header .search-container {
     display: flex;
     border-radius: 5px;
-    /* Bo góc của search bar */
     overflow: hidden;
 }
 
@@ -322,8 +321,6 @@ header .search-container button:hover {
     top: 50%;
     left: 66%;
     transform: translate(-50%, -50%);
-    max-width: 960px; 
-    padding: 20px;
 }
 
 .banner7 h1 {
