@@ -3,7 +3,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +35,6 @@ html {
 .btn:hover {
     background: hotpink;
 }
-
 /* header */
 
 header {
@@ -44,7 +42,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: yellowgreen;
+    background: #fff;
     padding: 2rem 9%;
     display: flex;
     align-items: center;
@@ -63,11 +61,11 @@ header .navbar a {
     font-size: 2rem;
     padding: 0 2rem;
     margin-right: 20px;
-    color: red;
+    color: #666;
 }
 
 header .navbar a:hover {
-    color: burlywood;
+    color: rgb(16, 184, 49);
 }
 
 header .icons a {
@@ -83,6 +81,7 @@ header .icons a:hover {
 header .search-container {
     display: flex;
     border-radius: 5px;
+    /* Bo góc của search bar */
     overflow: hidden;
 }
 
@@ -102,7 +101,6 @@ header .search-container button {
 header .search-container button:hover {
     background-color: #45a049;
 }
-
 /* banner1 */
 
 .banner {
@@ -162,9 +160,7 @@ header .search-container button:hover {
     margin-bottom: 3px;
     margin-top: 3px;
 }
-
 /* banner1 end */
-
 /* banner4 */
 
 .banner4_content1 {
@@ -185,25 +181,21 @@ header .search-container button:hover {
 }
 
 .banner4_content2 {
+    font-size: 35px;
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    font-size: 35px;
 }
 
 .banner4_content2 p {
     font-size: 25px;
-    line-height: 1.5;
     margin: 10px 20px;
 }
 
-.banner4_content2 button {
-    background-color: #4CAF50;
+.banner4_content2 .btn {
+    background-color: #486138;
     color: white;
-    padding: 5px 5px;
     border: none;
-    border-radius: 5px;
-    font-size: 15px;
     cursor: pointer;
 }
 
@@ -224,9 +216,7 @@ header .search-container button:hover {
     height: auto;
     max-width: 100%;
 }
-
 /* banner4 end */
-
 /* banner5 */
 
 .banner5 {
@@ -263,9 +253,154 @@ header .search-container button:hover {
     margin-top: 40px;
     color: #313b30;
 }
-
 /* end banner5 */
+/* banner6 */
+.banner6 {
+    position: relative;
+    text-align: center;
+}
 
+.banner6 img {
+    width: 100%;
+    height: auto;
+}
+
+.banner6_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gray;
+}
+
+.banner6 h1 {
+    font-size: 48px; 
+    margin-bottom: 20px;
+}
+
+.banner6 p {
+    font-size: 20px; 
+    margin-bottom: 40px;
+}
+
+.banner6_plants {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.banner6_plant {
+    text-align: center;
+}
+
+.banner6_plant img {
+    width: 100px; 
+    margin-bottom: 10px;
+}
+
+.banner6_plant span {
+    display: block;
+    font-size: 16px; 
+}
+
+/* end banner6 */
+/* banner7 */
+.banner7 {
+    position: relative;
+    text-align: center;
+    color: #fff; 
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+.banner7 img {
+    width: 100%;
+    height: auto;
+}
+
+.banner7_content {
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    max-width: 960px; 
+    padding: 20px;
+}
+
+.banner7 h1 {
+    font-size: 48px; 
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+
+.banner7 p {
+    font-size: 20px; 
+    margin-bottom: 10px;
+}
+
+.banner7 .small {
+    font-size: 14px; 
+    opacity: 0.8;
+}
+/* end banner7 */
+/* banner8 */
+
+.banner8 {
+    text-align: center;
+    margin: 20px;
+}
+
+.banner8 h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.banner8 p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 20px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid img {
+    height: auto;
+    max-width: 100%;
+}
+
+.grid div>div {
+    margin-top: 10px;
+    color: #555;
+}
+
+.banner8_box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner8_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #555;
+}
+
+.grid img {
+    height: auto;
+    max-width: 100%;
+}
+/* banner8 end */
 /* banner 9 */
 
 .banner9 {
@@ -294,9 +429,7 @@ header .search-container button:hover {
     margin-top: 3px;
     text-align: end;
 }
-
 /* banner9 end */
-
 /* footer section */
 
 footer {
